@@ -1,0 +1,71 @@
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\Form\dlgInputDialog.baml
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\Form\dlgTag.baml
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\MainWindow.baml
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\Form\dlgInputDialog.g.cs
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\Form\dlgTag.g.cs
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\MainWindow.g.cs
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\App.g.cs
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\OpcClient_MarkupCompile.cache
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\OpcClient.g.resources
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\OpcClient.Properties.Resources.resources
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\OpcClient.csproj.GenerateResource.Cache
+C:\SonTran\App VS2010\OpcClient\OpcClient\bin\Release\OpcClient.exe
+C:\SonTran\App VS2010\OpcClient\OpcClient\bin\Release\OpcClient.pdb
+C:\SonTran\App VS2010\OpcClient\OpcClient\bin\Release\Newtonsoft.Json.dll
+C:\SonTran\App VS2010\OpcClient\OpcClient\bin\Release\Newtonsoft.Json.xml
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\OpcClient.csprojResolveAssemblyReference.cache
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\OpcClient.exe
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Release\OpcClient.pdb
+C:\SonTran\App VS2010\OpcClient\OpcClient\bin\Release\OpcClient.exe.config
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Release\OpcClient.exe.config
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\OpcClient.exe
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\OpcClient.pdb
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Release\OpcClient.exe
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Release\OpcClient.pdb
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Release\Newtonsoft.Json.dll
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Release\Newtonsoft.Json.xml
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\OpcClient.csprojResolveAssemblyReference.cache
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\Form\dlgInputDialog.baml
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\Form\dlgTag.baml
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\MainWindow.baml
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\App.baml
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\Form\dlgInputDialog.g.cs
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\Form\dlgTag.g.cs
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\MainWindow.g.cs
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\App.g.cs
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\OpcClient_MarkupCompile.cache
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\OpcClient.g.resources
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\OpcClient.Properties.Resources.resources
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Release\OpcClient.csproj.GenerateResource.Cache
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Release\OpcLib.dll
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Release\OpcLib.pdb
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\OpcClient.exe.config
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\OpcClient.exe
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\OpcClient.pdb
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\OpcClient.exe
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\OpcClient.pdb
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\Newtonsoft.Json.dll
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\OpcLib.dll
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\System.Interactive.Async.dll
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\Newtonsoft.Json.xml
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\OpcLib.pdb
+C:\SonTran\GRPC\Opc\OpcClient\bin\Release\System.Interactive.Async.xml
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\OpcClient.csprojResolveAssemblyReference.cache
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\Form\dlgInputDialog.baml
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\Form\dlgTag.baml
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\MainWindow.baml
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\App.baml
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\Form\dlgInputDialog.g.cs
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\Form\dlgTag.g.cs
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\MainWindow.g.cs
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\App.g.cs
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\OpcClient_MarkupCompile.cache
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\OpcClient.g.resources
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\OpcClient.Properties.Resources.resources
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Release\OpcClient.csproj.GenerateResource.Cache

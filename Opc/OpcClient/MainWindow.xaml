@@ -1,0 +1,127 @@
+﻿<Window xmlns:tb="http://www.hardcodet.net/taskbar"  x:Class="OpcClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OPC Client" Height="569" Width="905" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Closing="Window_Closing" 
+        ShowInTaskbar="True" Icon="/OpcClient;component/Image/sync.ico" StateChanged="Window_StateChanged">
+    <Window.Resources>
+        <Style TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="BorderBrush" Value="Silver"></Setter>
+            <Setter Property="BorderThickness" Value="0,0,0,1"></Setter>
+        </Style>
+        <LinearGradientBrush x:Key="HeaderGradientBrush" EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            <GradientStop Color="Coral"  Offset="1"/>
+            <GradientStop Color="Bisque" Offset="0.746"/>
+        </LinearGradientBrush>
+        <Style TargetType="GridViewColumnHeader">
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="Background" Value="{StaticResource HeaderGradientBrush}"></Setter>
+            <Setter Property="Foreground" Value="Gray" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+        <LinearGradientBrush x:Key="ButtonGradientBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF1B405D" Offset="1"/>
+            <GradientStop Color="#FF2F7CA8" Offset="0"/>
+        </LinearGradientBrush>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="Background" Value="{StaticResource ButtonGradientBrush}"></Setter>
+        </Style>
+        <!--<BitmapImage x:Key="ImgClientSource" UriSource="Image/Client.ico" />-->
+    </Window.Resources>
+
+    <DockPanel RenderTransformOrigin="0.5,0.648" Margin="0,0,2,30">
+        <tb:TaskbarIcon Name="Notify1" IconSource="Image/sync.ico" ToolTipText="Opc Client" TrayLeftMouseUp="Notify1_TrayLeftMouseUp" >
+            <tb:TaskbarIcon.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Name="MnuOpenApp" Header="Open OPC Client" Click="MnuOpenApp_Click">
+                        <MenuItem.Icon>
+                            <Image Source ="{StaticResource ImgClientSource}"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Name="MnuExitApp" Header="Exit" Click="MnuExitApp_Click"/>
+                </ContextMenu>
+            </tb:TaskbarIcon.ContextMenu>
+        </tb:TaskbarIcon>
+
+        <WrapPanel VerticalAlignment="Top" DockPanel.Dock="Top" Height="38">
+            <Button x:Name="btnConnect" Content="Connect" Width="75" Height="33" Margin="10,0,0,0" Click="btnConnect_Click" />
+            <Button x:Name="btnDisConnect" Content="DisConnect" Width="75" Height="33" Margin="4,0,0,0" Click="btnDisConnect_Click" />
+            <Label x:Name="lblValue" Width="104"></Label>
+        </WrapPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300" MinWidth="100" MaxWidth="500" ></ColumnDefinition>
+                <ColumnDefinition Width="4"></ColumnDefinition>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TreeView x:Name="treeGroup" Margin="10,0,0,0" SelectedItemChanged="treeGroup_SelectedItemChanged" MouseRightButtonDown="treeGroup_MouseRightButtonDown" Background="AliceBlue">
+                <TreeView.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Name="mnuAddGroup" Header="Add Group" Click="mnuAddGroup_Click">
+                            <MenuItem.Icon>
+                                <Image Source="Image/add.ico"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Name="mnuRemoveGroup" Header="Remove Group" Click="mnuRemoveGroup_Click">
+                            <MenuItem.Icon>
+                                <Image Source="Image/delete.ico"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Name="mnuAddServer" Header="Add Server" Click="mnuAddServer_Click" />
+                        <MenuItem Name="mnuRemoveServer" Header="Remove Server" Click="mnuRemoveServer_Click" />
+                    </ContextMenu>
+                </TreeView.ContextMenu>
+            </TreeView>
+            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" />
+            <ListView Grid.Column="2" x:Name="lvTag" DockPanel.Dock="Right" Margin="0,0,10,0" ItemsSource="{Binding}" MouseRightButtonDown="lvTag_MouseRightButtonDown" SelectionChanged="lvTag_SelectionChanged">
+                <ListView.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Name="mnuSetValue" Header="Set Value" Click="mnuSetValue_Click">
+                            <MenuItem.Icon>
+                                <Image Source="Image/edit.ico"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Name="mnuAddTag" Header="Add Tag" Click="mnuAddTag_Click" >
+                            <MenuItem.Icon>
+                                <Image Source="Image/add.ico"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Name="mnuRemoveTag" Header="Remove Tag" Click="mnuRemoveTag_Click" >
+                            <MenuItem.Icon>
+                                <Image Source="Image/delete.ico"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </ListView.ContextMenu>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn>
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Image Width="16" Source="{Binding IconRow}" />
+                                    </Grid>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        
+                        <GridViewColumn Width="0" Header="Id" DisplayMemberBinding="{Binding Id}"/>
+                        <GridViewColumn Header="Tag Name" Width="200" DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn Width="100">
+                            <GridViewColumnHeader Content="Value" >
+                            </GridViewColumnHeader>
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Value}" TextAlignment="Center"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Quality" Width="120" DisplayMemberBinding="{Binding Quality}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+    </DockPanel>
+</Window>
+

@@ -1,0 +1,105 @@
+C:\SonTran\App VS2010\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+C:\SonTran\App VS2010\OpcClient\OpcClient\bin\Debug\OpcClient.pdb
+C:\SonTran\App VS2010\OpcClient\OpcClient\bin\Debug\Newtonsoft.Json.dll
+C:\SonTran\App VS2010\OpcClient\OpcClient\bin\Debug\Newtonsoft.Json.xml
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\Form\dlgInputDialog.baml
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\Form\dlgTag.baml
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\MainWindow.baml
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\Form\dlgInputDialog.g.cs
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\Form\dlgTag.g.cs
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\MainWindow.g.cs
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\App.g.cs
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\OpcClient_MarkupCompile.cache
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\OpcClient.g.resources
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\OpcClient.Properties.Resources.resources
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\OpcClient.csproj.GenerateResource.Cache
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\OpcClient.exe
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\OpcClient.pdb
+C:\SonTran\App VS2010\OpcClient\OpcClient\obj\x86\Debug\OpcClient.csprojResolveAssemblyReference.cache
+C:\SonTran\App VS2010\OpcClient\OpcClient\bin\Debug\OpcClient.exe.config
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe.config
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\OpcClient.exe
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\OpcClient.pdb
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.pdb
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\Newtonsoft.Json.dll
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\Newtonsoft.Json.xml
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\Form\dlgInputDialog.baml
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\Form\dlgTag.baml
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\MainWindow.baml
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\Form\dlgInputDialog.g.cs
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\Form\dlgTag.g.cs
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\MainWindow.g.cs
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\App.g.cs
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\OpcClient_MarkupCompile.cache
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\OpcClient.g.resources
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\OpcClient.Properties.Resources.resources
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\OpcClient.csproj.GenerateResource.Cache
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
+C:\SonTran\App VS2015\OpcClient\OpcClient\obj\x86\Debug\App.baml
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcLib.dll
+C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcLib.pdb
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\Form\dlgInputDialog.baml
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\Form\dlgTag.baml
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\MainWindow.baml
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\App.baml
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\Form\dlgInputDialog.g.cs
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\Form\dlgTag.g.cs
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\MainWindow.g.cs
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\App.g.cs
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\OpcClient_MarkupCompile.cache
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\OpcClient.g.resources
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\OpcClient.Properties.Resources.resources
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\OpcClient.csproj.GenerateResource.Cache
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\OpcClient.exe.config
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\OpcClient.exe
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\OpcClient.pdb
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\Google.Protobuf.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\Greeter.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\Grpc.Core.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\Newtonsoft.Json.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\OpcLib.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\System.Interactive.Async.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\Google.Protobuf.xml
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\Greeter.pdb
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\Grpc.Core.xml
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\OpcLib.pdb
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\System.Interactive.Async.xml
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\OpcClient.csprojResolveAssemblyReference.cache
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\OpcClient.exe
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\obj\x86\Debug\OpcClient.pdb
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\grpc_csharp_ext.x86.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\grpc_csharp_ext.x64.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\libgrpc_csharp_ext.x86.so
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\libgrpc_csharp_ext.x64.so
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\libgrpc_csharp_ext.x86.dylib
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcClient\bin\Debug\libgrpc_csharp_ext.x64.dylib
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\OpcClient.exe.config
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\OpcClient.exe
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\OpcClient.pdb
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\Newtonsoft.Json.dll
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\OpcLib.dll
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\System.Interactive.Async.dll
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\Newtonsoft.Json.xml
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\OpcLib.pdb
+C:\SonTran\GRPC\Opc\OpcClient\bin\Debug\System.Interactive.Async.xml
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\OpcClient.csprojResolveAssemblyReference.cache
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\Form\dlgInputDialog.baml
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\Form\dlgTag.baml
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\MainWindow.baml
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\App.baml
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\Form\dlgInputDialog.g.cs
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\Form\dlgTag.g.cs
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\MainWindow.g.cs
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\App.g.cs
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\OpcClient_MarkupCompile.cache
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\OpcClient.g.resources
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\OpcClient.Properties.Resources.resources
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\OpcClient.csproj.GenerateResource.Cache
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\OpcClient.exe
+C:\SonTran\GRPC\Opc\OpcClient\obj\x86\Debug\OpcClient.pdb

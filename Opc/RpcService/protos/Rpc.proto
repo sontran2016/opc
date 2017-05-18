@@ -1,0 +1,74 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.Helloworld";
+option java_outer_classname = "HelloWorldProto";
+option objc_class_prefix = "HLW";
+
+package RpcPackage;
+
+// The greeting service definition.
+service RpcService {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+  rpc SayHelloAgain (HelloRequest) returns (HelloReply) {}
+  rpc MySum(SumRequest) returns (SumReply) {}
+  rpc TestConnection(TestRequest) returns(TestReply){}
+  rpc ReceiveGroupTags(GroupResponseModelRpc_Request) returns(ServerReply){}
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}
+message ServerReply {  string message = 1;}
+message TestRequest{}
+message TestReply{ bool status=1; }
+message SumRequest{int32 a=1; int32 b=2; }
+message SumReply{int32 result=1;}
+
+//**
+	message TagModelRpc
+    {
+        string Name=1;
+        int32 Value=2;
+        string Quality=3;
+    }
+	message ServerModelRpc
+    {
+        string Name=1;
+        bool IsConnected=2;
+    }
+	message GroupModelRpc
+    {
+        string Name=1;
+        bool Active=2;
+    }
+
+	message GroupResponseModelRpc_Request
+	{ 
+		RequestTypeRpc RequestType=1;
+		ServerModelRpc Server=2;
+		GroupModelRpc Group=3;
+		repeated TagModelRpc Tags=4;
+	}
+	enum RequestTypeRpc
+    {
+		None=0;
+        ReadTag = 1;
+        WriteTag = 2;
+        AddTag = 3;
+        RemoveTag = 4;
+        ReadGroupTags = 5;
+        GetListServer = 6;
+        ReadServerStatus = 7;
+        Error=8;
+        AddGroup=9;
+        RemoveGroup=10;
+        AddServer=11;
+        RemoveServer=12;
+    }

@@ -1,0 +1,4 @@
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcServer\bin\Debug\OpcServer.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcServer\bin\Debug\OpcServer.pdb
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcServer\obj\Debug\OpcServer.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcServer\obj\Debug\OpcServer.pdb

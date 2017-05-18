@@ -1,0 +1,3 @@
+C:\SonTran\GRPC\Opc\RpcServer\obj\Debug\RpcServer.csprojResolveAssemblyReference.cache
+C:\SonTran\GRPC\Opc\RpcServer\obj\Debug\OpcServer.dll
+C:\SonTran\GRPC\Opc\RpcServer\obj\Debug\OpcServer.pdb

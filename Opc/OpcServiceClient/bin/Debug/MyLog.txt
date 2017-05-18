@@ -1,0 +1,16 @@
+
+5/18/2017 3:43:01 PM, ClientOpcServerService: System.IO.IOException: The network path was not found.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at OpcServiceClient.Implement.ClientOpcServerService.Connect() in C:\SonTran\GRPC\Opc\OpcServiceClient\Implement\ClientOpcServerService.cs:line 54
+5/18/2017 3:43:09 PM, ClientOpcServerService: System.IO.IOException: The network path was not found.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at OpcServiceClient.Implement.ClientOpcServerService.Connect() in C:\SonTran\GRPC\Opc\OpcServiceClient\Implement\ClientOpcServerService.cs:line 54
+5/18/2017 3:43:14 PM, ClientOpcServerService: System.IO.IOException: The network path was not found.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at OpcServiceClient.Implement.ClientOpcServerService.Connect() in C:\SonTran\GRPC\Opc\OpcServiceClient\Implement\ClientOpcServerService.cs:line 54

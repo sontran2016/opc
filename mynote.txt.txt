@@ -1,0 +1,2 @@
+Commands to generate the gRPC code
+PM> packages/Grpc.Tools.1.0.0/tools/windows_x64/protoc -I../../protos --csharp_out Greeter --grpc_out Greeter ../../protos/helloworld.proto --plugin=protoc-gen-grpc=packages/Grpc.Tools.1.0.0/tools/windows_x64/grpc_csharp_plugin.exe

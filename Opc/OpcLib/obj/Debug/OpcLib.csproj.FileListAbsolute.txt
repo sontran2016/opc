@@ -1,0 +1,10 @@
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcLib\bin\Debug\OpcLib.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcLib\bin\Debug\OpcLib.pdb
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcLib\obj\Debug\OpcLib.csprojResolveAssemblyReference.cache
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcLib\obj\Debug\OpcLib.dll
+C:\SonTran\GRPC\grpc\examples\csharp\helloworld\OpcLib\obj\Debug\OpcLib.pdb
+C:\SonTran\GRPC\Opc\OpcLib\obj\Debug\OpcLib.csprojResolveAssemblyReference.cache
+C:\SonTran\GRPC\Opc\OpcLib\obj\Debug\OpcLib.dll
+C:\SonTran\GRPC\Opc\OpcLib\obj\Debug\OpcLib.pdb
+C:\SonTran\GRPC\Opc\OpcLib\bin\Debug\OpcLib.dll
+C:\SonTran\GRPC\Opc\OpcLib\bin\Debug\OpcLib.pdb

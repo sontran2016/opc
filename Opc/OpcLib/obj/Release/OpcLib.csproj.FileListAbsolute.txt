@@ -1,0 +1,4 @@
+C:\SonTran\GRPC\Opc\OpcLib\bin\Release\OpcLib.dll
+C:\SonTran\GRPC\Opc\OpcLib\bin\Release\OpcLib.pdb
+C:\SonTran\GRPC\Opc\OpcLib\obj\Release\OpcLib.dll
+C:\SonTran\GRPC\Opc\OpcLib\obj\Release\OpcLib.pdb

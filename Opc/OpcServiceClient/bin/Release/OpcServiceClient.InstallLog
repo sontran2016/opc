@@ -1,0 +1,150 @@
+﻿Installing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Installing service OpcService...
+Service OpcService has been successfully installed.
+Creating EventLog source OpcService in log Application...
+Committing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Uninstalling assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Removing EventLog source OpcService.
+Service OpcService is being removed from the system...
+Service OpcService was successfully removed from the system.
+Installing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Installing service OpcService...
+Service OpcService has been successfully installed.
+Creating EventLog source OpcService in log Application...
+Committing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Uninstalling assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Removing EventLog source OpcService.
+Service OpcService is being removed from the system...
+Service OpcService was successfully removed from the system.
+Installing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Installing service OpcService...
+Creating EventLog source OpcService in log Application...
+Rolling back assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Restoring event log to previous state for source OpcService.
+Installing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Installing service OpcService...
+Creating EventLog source OpcService in log Application...
+Rolling back assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Restoring event log to previous state for source OpcService.
+Uninstalling assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Removing EventLog source OpcService.
+Warning: The source OpcService is not registered on the local machine.
+Service OpcService is being removed from the system...
+Service OpcService was successfully removed from the system.
+Installing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Installing service OpcService...
+Service OpcService has been successfully installed.
+Creating EventLog source OpcService in log Application...
+Committing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Uninstalling assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Removing EventLog source OpcService.
+Service OpcService is being removed from the system...
+Service OpcService was successfully removed from the system.
+Installing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Installing service OpcService...
+Service OpcService has been successfully installed.
+Creating EventLog source OpcService in log Application...
+Committing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Uninstalling assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Removing EventLog source OpcService.
+Service OpcService is being removed from the system...
+Service OpcService was successfully removed from the system.
+Attempt to stop service OpcService.
+Uninstalling assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Removing EventLog source OpcService.
+Warning: The source OpcService is not registered on the local machine.
+Service OpcService is being removed from the system...
+Service OpcService was successfully removed from the system.
+Installing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Installing service OpcService...
+Service OpcService has been successfully installed.
+Creating EventLog source OpcService in log Application...
+Committing assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Uninstalling assembly 'C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.exe
+   logfile = C:\SonTran\GRPC\Opc\OpcServiceClient\bin\Release\OpcServiceClient.InstallLog
+Removing EventLog source OpcService.
+Service OpcService is being removed from the system...
+Service OpcService was successfully removed from the system.

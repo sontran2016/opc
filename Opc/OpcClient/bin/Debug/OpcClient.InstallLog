@@ -1,0 +1,220 @@
+﻿Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service Opc Client...
+Creating EventLog source Opc Client in log Application...
+Rolling back assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Restoring event log to previous state for source Opc Client.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service Opc Client...
+Creating EventLog source Opc Client in log Application...
+Rolling back assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Restoring event log to previous state for source Opc Client.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service OpcClientService...
+Creating EventLog source OpcClientService in log Application...
+Rolling back assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Restoring event log to previous state for source OpcClientService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service OpcClientService...
+Creating EventLog source OpcClientService in log Application...
+Rolling back assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Restoring event log to previous state for source OpcClientService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service OpcClientService...
+Creating EventLog source OpcClientService in log Application...
+Rolling back assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Restoring event log to previous state for source OpcClientService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service OpcClientService...
+Creating EventLog source OpcClientService in log Application...
+Rolling back assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Restoring event log to previous state for source OpcClientService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service OpcClientService...
+Creating EventLog source OpcClientService in log Application...
+Rolling back assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Restoring event log to previous state for source OpcClientService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service OpcClientService...
+Creating EventLog source OpcClientService in log Application...
+Rolling back assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Restoring event log to previous state for source OpcClientService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service Opc Client Service...
+Creating EventLog source Opc Client Service in log Application...
+Rolling back assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Restoring event log to previous state for source Opc Client Service.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service Opc Client Service...
+Service Opc Client Service has been successfully installed.
+Creating EventLog source Opc Client Service in log Application...
+Committing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Uninstalling assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Removing EventLog source Opc Client Service.
+Service Opc Client Service is being removed from the system...
+Service Opc Client Service was successfully removed from the system.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service Opc Client Service...
+Creating EventLog source Opc Client Service in log Application...
+Rolling back assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Restoring event log to previous state for source Opc Client Service.
+Uninstalling assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Removing EventLog source Opc Client Service.
+Warning: The source Opc Client Service is not registered on the local machine.
+Service Opc Client Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Installing service Opc Client Service...
+Service Opc Client Service has been successfully installed.
+Creating EventLog source Opc Client Service in log Application...
+Committing assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+Uninstalling assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe assembly.
+Uninstalling assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe assembly.
+Uninstalling assembly 'C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.InstallLog
+   assemblypath = C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\SonTran\App VS2015\OpcClient\OpcClient\bin\Debug\OpcClient.exe assembly.
