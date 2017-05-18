@@ -1,0 +1,806 @@
+<html>
+  <head>
+    <title>OPC Data Access 3.00 Samples Readme</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+    <meta name="ProgId" content="FrontPage.Editor.Document">
+  </head>
+  <body>
+    <table cellSpacing="4" cellPadding="4" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td>
+            <p class="head1" align="center"><font color="#990000" size="4" face="Arial"><b>OPC 
+                  Data Access 3.00 Sample Code</b></font></p>
+            <p class="head1" align="center"><b>
+			<font face="Arial" color="#800000">February 10, 2007</font></b></p>
+            <p><font face="Verdana" size="2"><a name="Overview"></a></font><b><font size="3" face="Arial">Overview</font></b></p>
+            <p><font face="Verdana" size="2">This version of the Data Access 
+			3.00 Sample Code supports .NET 2.0 and has been tested on Windows 
+			Vista. It also provides an updated 
+			configuration tool for .NET based OPC server implementations.</font></p>
+			<p><font face="Verdana" size="2">The latest version of this document always on the 
+                OPC foundation 
+			<a href="http://www.opcfoundation.org/Downloads.aspx?CM=1&CN=KEY&CI=274&EBP=0&SRT=ModificationTime&DES=Y&SE1=ReleaseStatus&FV1=Released&FT1=&SE2=Title&FV2=Custom&FT2=%Sample%">website</a>.</font></p>
+            <p><font face="Verdana" size="2">Any use of the <i>OPC Data Access Sample Code</i> is 
+                subject to the terms the <a href="http://opcfoundation.org/Downloads/LicenseAgreement.asp">
+                  OPC Foundation License Agreement</a>.</font></p>
+            <p><font face="Verdana" size="2">The <i>OPC Data Access Sample Code</i> 
+            consists of C# client and server applications and a C++ server
+            application. These applications implement the Data Access Custom
+            Interface Specification 3.00 and 2.05a. These samples are intended
+            to demonstrate the correct operation of the specification and to
+            serve as starting point for vendors who wish to develop their own
+            implementations.</font></p>
+            <p><font face="Verdana" size="2"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">The
+            sample client is written completely with .NET technologies; as a
+            result, it also demonstrates how to build .NET applications that
+            interoperate with existing OPC compliant COM servers. Part of the
+            sample client includes a set of classes and interfaces that expose a
+            common native .NET interface for both COM-DA and XML-DA servers.
+            This .NET API will be maintained a separate component that vendors
+            can use as a basis for their own .NET based applications.</span></font></p>
+            <p><font face="Verdana" size="2"><a name="Overview"></a></font><b><font size="3" face="Arial">DCOM
+            configuration with Windows XP SP2</font></b></p>
+            <p><font face="Verdana" size="2">Microsoft has provided some sample APIs
+            which can be used to programmatically configure DCOM permissions
+            under Windows XP SP2 and later systems. The sample code now includes
+            these APIs as part of the 'Sample Utility Classes' project. The APIs
+            are documented in the '</font><font face="Verdana" size="2">DCOM Config Readme.htm</font><font face="Verdana" size="2">'
+            file which is also part of that project.</font></p>
+            <p><font face="Verdana" size="2"><a name="Overview"></a></font><b><font size="3" face="Arial">Server
+            Implementation in .NET</font></b></p>
+            <p><font face="Verdana" size="2">The sample code includes a server implemented in C#. This server
+            is implemented using the .NET API server interface which is then
+            registered as an in process COM server. However, the .NET COM interoperability layer has a number of limitations that make it impossible to
+            develop a compliant DA server purely in .NET. As a result, the
+            sample code also includes a wrapper written in C++ that can host any
+            implementation of the DA interfaces in .NET. This wrapper is
+            designed to be generic and supports any .NET in-process server that
+            implements the DA COM interfaces. The XML configuration file for the
+            wrapper specifies the ProgID of the .NET server it loads.</font></p>
+            <p><font face="Verdana" size="2">Note that the .NET server
+            implementation uses same code base as the XML-DA sample server, as
+            result, this sample also demonstrates how to write a DA server in
+            .NET that supports both the COM DA and XML DA specifications.</font></p>
+            <p><font face="Verdana" size="2"><a name="Overview"></a></font><b><font size="3" face="Arial">Complex
+            Data</font></b></p>
+            <p><font face="Verdana" size="2">This version (3.00.2.02) of the sample clients
+            and servers have been modified to support the draft complex data
+            specification. Complex data related features are accessible in the
+            sample client user interface via context menus or buttons used to
+            view or edit an item value. If the item is a complex item (i.e. its
+            defines the complex data properties described in the specification)
+            then a complex item dialog will appear. This dialog displays the
+            complex data in its raw form (binary or text) as well as a tree
+            view. The type description information provided by the server is
+            also accessible via this dialog.</font></p>
+            <p><font face="Verdana" size="2">The underlying items exposed by the
+            sample servers are binary values which may be converted to XML by
+            server if requested by the client. The client application is able to
+            display a structured view of the complex data by fetching the OPC
+            Binary type description from the server and using this to parse the
+            buffer returned by the server.</font></p>
+            <p><font face="Verdana" size="2"><a name="Version"></a></font><b><font size="3" face="Arial">Version 
+                  History</font></b></p>
+            <table border="1" width="100%" cellspacing="0" cellpadding="2">
+              <tr>
+                <td align="center" bgcolor="#000080" width="99">
+                  <b><font color="#ffffff" face="Verdana" size="2">Date</font></b>
+                </td>
+                <td align="center" bgcolor="#000080" width="90"><b><font color="#ffffff" face="Verdana" size="2">Version</font></b></td>
+                <td align="center" bgcolor="#000080">
+                  <p align="center"><b><font color="#ffffff" face="Verdana" size="2">Description</font></b></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" width="99"><font face="Verdana" size="2">2003-01-31</font></td>
+                <td align="center" width="90"><font face="Verdana" size="2">1.00.1.00</font></td>
+                <td align="left"><font face="Verdana" size="2">Released with an installation 
+                    program.</font></td>
+              </tr>
+              <tr>
+                <td align="center" width="99"><font face="Verdana" size="2">2003-02-02</font></td>
+                <td align="center" width="90"><font face="Verdana" size="2">1.01.1.00</font></td>
+                <td align="left"><font face="Verdana" size="2">Released with self-registration bug 
+                    fixes.</font></td>
+              </tr>
+              <tr>
+                <td align="center" width="99"><font face="Verdana" size="2">2003-02-14</font></td>
+                <td align="center" width="90"><font face="Verdana" size="2">1.02.1.00</font></td>
+                <td align="left"><font face="Verdana" size="2">Released with updated help files.</font></td>
+              </tr>
+              <tr>
+                <td align="center" width="99"><font face="Verdana" size="2">2003-03-03</font></td>
+                <td align="center" width="90"><font face="Verdana" size="2">3.00.1.01</font></td>
+                <td align="left"><font face="Verdana" size="2">Released with a new IDL that 
+                    includes fields to force byte alignment in structures.</font></td>
+              </tr>
+              <tr>
+                <td align="center" width="99" valign="top"><font face="Verdana" size="2">2003-06-05</font></td>
+                <td align="center" width="90" valign="top"><font face="Verdana" size="2">3.00.1.12</font></td>
+                <td align="left">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Released 
+                      with numerous minor bug fixes required for the DA 3.0 compliance test tool.</font></p>
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Updated 
+                      to compile with .NET 1.0 Wrappers distributed in Core Components 1.12.</font></p>
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Updated 
+                      source projects for use with VS .NET 2003</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" width="99" valign="top"><font face="Verdana" size="2">2003-06-30</font></td>
+                <td align="center" width="90" valign="top"><font face="Verdana" size="2">3.00.1.20</font></td>
+                <td align="left">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Released 
+                      with support for the .NET 1.1 Wrappers distributed in Core Components 2.00.</font></p>
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Fixed 
+                      some memory leaks and allocation problems.</font></p>
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Fixed 
+                      problem that caused write requests to be processed out of order.&nbsp;</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" width="99" valign="top"><font face="Verdana" size="2">2003-07-21</font></td>
+                <td align="center" width="90" valign="top"><font face="Verdana" size="2">3.00.1.21</font></td>
+                <td align="left">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Changed 
+                      the address space to facilitate use with the Compliance Test Tool.&nbsp;</font></p>
+                </td>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2003-08-12</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.1.2<font face="Verdana">3</font></FONT></TD>
+                <TD align="left"><font face="Verdana" size="2">The group count
+                  is now properly decremented when a group is removed.</font>
+                  <p style="margin-top: 0"><font face="Verdana" size="2">The
+                  server sends only one update if an item goes into an error
+                  state.</font></p>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2003-08-19</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.1.24</FONT></TD>
+                <TD align="left"><font face="Verdana" size="2">Fixed a bug
+                  introduced in release 3.00.1.21 that disabled item sampling
+                  rates.</font>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2003-08-21</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.2.00</FONT></TD>
+                <TD align="left"><font face="Verdana" size="2">Replaced the .NET
+                  API with the latest version from the XML-DA code base.</font>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2003-10-14</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.2.02</FONT></TD>
+                <TD align="left"><font face="Verdana" size="2">Updated client
+                  and server to support the Complex Data specification.</font>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2004-02-22</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.2.05</FONT></TD>
+                <TD align="left"><font face="Verdana" size="2">Fixed problems
+                  with latest version of the CTT (Version 2.0.7.1116).</font>
+                  <p style="margin-top: 0; margin-bottom: 0"><font face="Verdana" size="2">Updated
+                  sample client to use the latest version of the OPC .NET API.</font></p>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2004-05-14</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.2.2<font face="Verdana">1</font></FONT></TD>
+                <TD align="left"><font face="Verdana" size="2">Fixed problems
+                  with latest version of the CTT (Version 2.0.7.1120).</font>
+                  <p style="margin-top: 0; margin-bottom: 0"><font face="Verdana" size="2">Added
+                  sample server written in C#.</font></p>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2004-09-02</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.2.2<font face="Verdana">4</font></FONT></TD>
+                <TD align="left">
+                  <p style="margin-top: 0; margin-bottom: 0"><font face="Verdana" size="2">Fixed
+                  memory leaks in the .NET API and the C++ sample servers.<br>
+                  Fixed multiple client bug in the C# server wrapper.</font></p>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2004-11-12</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.3.00</FONT></TD>
+                <TD align="left">
+                  <p style="margin-top: 0; margin-bottom: 0"><font face="Verdana" size="2">Updated
+                  to use the .NET API 1.30.</font></p>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2004-12-02</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.3.<font face="Verdana">10</font></FONT></TD>
+                <TD align="left">
+                  <p style="margin-top: 0; margin-bottom: 0"><font face="Verdana" size="2">Updated
+                  samples to use the DCOM configuration APIs from the Windows XP
+                  SP2 Platform SDK.<br>
+                  No changes in behavior for OSes earlier than XP SP2 or W2003
+                  SP1.&nbsp;</font></p>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2004-12-21</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.3.<font face="Verdana">20</font></FONT></TD>
+                <TD align="left">
+                  <p style="margin-top: 0; margin-bottom: 0"><font face="Verdana" size="2">.NET
+                  sample server updated
+              to work with Build 1124 of the CTT.&nbsp;</font></p>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2005-01-26</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.3.30</FONT></TD>
+                <TD align="left">
+                  <p style="margin-top: 0; margin-bottom: 0"><font face="Verdana" size="2">Sample
+                  client and C# server updated because of minor bug fixes in the .NET API.</font></p>
+                  <p style="margin-top: 0; margin-bottom: 0"><font face="Verdana" size="2">Fixed
+                  problem with the pattern matching function used by the C#
+                  server.</font></p>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2005-05-31</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.3.40</FONT></TD>
+                <TD align="left">
+                  <p style="margin-top: 0; margin-bottom: 0">
+					<font face="Verdana" size="2">Incorporates bugs fixes in the 
+					.NET API.</font></p>
+                </TD>
+              </tr>
+              <tr>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2005-11-25</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2">3.00.3.50</FONT></TD>
+                <TD align="left">
+                  <p style="margin-top: 0; margin-bottom: 0">
+					<font face="Verdana" size="2">Incorporates various bug fixes 
+					in the .NET API.</font></p>
+					<p style="margin-top: 0; margin-bottom: 0">
+					<font face="Verdana" size="2">Fixed issues discovered while 
+					testing the latest compliance test. </font></p>
+					<p style="margin-top: 0; margin-bottom: 0">
+					<font face="Verdana" size="2">Added a graphical tool that 
+					can be used to configure .NET implementations of COM 
+					servers.</font></p>
+					<p style="margin-top: 0; margin-bottom: 0">
+					<font face="Verdana" size="2">OpcDaWrapper.exe now can wrap 
+					multiple .NET COM servers in the same process.</font></p>
+                </TD>
+              </tr>
+              <TR>
+                <TD vAlign="top" align="center" width="99"><FONT face="Verdana" size="2">2007-02-10</FONT></TD>
+                <TD vAlign="top" align="center" width="90"><FONT face="Verdana" size="2"><FONT face="Verdana" size="2">3.00.4.00</FONT></FONT></TD>
+                <TD align="left">
+                  <p style="margin-top: 0; margin-bottom: 0">
+					<font face="Verdana" size="2">Samples ported to .NET 2.0 and 
+					Visual Studio 2005</font></p>
+                </TD>
+              </TR>
+            </table>
+            <p><font face="Verdana" size="2"><a name="Distribution"></a></font><b><font face="Arial" size="3">Distribution</font></b></p>
+            <p><font face="Verdana" size="2">The sample code is distributed in two ways:<o:p>
+                &nbsp;</font></p>
+            <table border="1" width="100%" cellspacing="0" cellpadding="2">
+              <tr>
+                <td align="left" bgcolor="#000080" width="25%">
+                  <p align="center"><b><font color="#ffffff" face="Verdana" size="2">File</font></b></p>
+                </td>
+                <td align="left" bgcolor="#000080">
+                  <p align="center"><b><font color="#ffffff" face="Verdana" size="2">Description</font></b></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%"><font face="Verdana" size="2">
+				OPC 
+                      DA 3.00 Sample Binaries</font></td>
+                <td align="left"><font face="Verdana" size="2">Installs only the binaries and any 
+                    runtime configuration files.</font></td>
+              </tr>
+              <tr>
+                <td width="25%"><font face="Verdana" size="2">
+				OPC 
+                      DA 3.00 Sample Code</font></td>
+                <td align="left"><font face="Verdana" size="2">Installs the 
+				source for all the samples.</font></td>
+              </tr>
+            </table>
+            <p><font face="Verdana" size="2"><o:p></o:p><a name="SystemRequirements"></a></font><b><font size="3" face="Arial">System 
+                  Requirements</font></b></p>
+            <p class="MsoBodyText"><b><font face="Verdana" size="2"><a name="OperatingSystems"></a>Operating 
+                  Systems</font></b></p>
+            <p class="MsoBodyText"><font face="Verdana" size="2">All source code provided by 
+                the OPC Foundation is only supported on Windows XP SP2 and 
+			Windows Vista. 
+                That said; the source code has been designed to be portable to other operating 
+                systems. For this reason vendors are encouraged to report fixes required to 
+                port the samples to other operating systems so they can be incorporated into 
+                the baseline and to improve the portability of future sample code.</font></p>
+            <p class="MsoBodyText"><font face="Verdana" size="2">The samples 
+			required the .NET Framework version 2.0. The .NET Framework can be 
+			downloaded from
+			<a href="http://msdn2.microsoft.com/en-us/netframework/aa731542.aspx">
+			here</a>.</font></p>
+            <p class="MsoBodyText"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><font face="Verdana" size="2">All 
+                  C++/COM applications are compiled as UNICODE applications and will not run on 
+                  Windows 98 or Windows ME unless they are recompiled.&nbsp;</font></span></p>
+            <p class="MsoBodyText"><b><font face="Verdana" size="2"><a name="Installers"></a>Installers</font></b></p>
+			<p class="MsoBodyText"><font face="Verdana" size="2">The installers 
+			come with a setup.exe file. This is the file that must be used to 
+			install under Windows Vista. Double clicking on the MSI will cause 
+			an error.</font></p>
+            <p class="MsoBodyText"><font face="Verdana" size="2">The installer packages are 
+                self-installing files; however, they require that Windows Installer 2.0 be 
+                present on the system (it is standard on Windows 2000 SP3 and Windows XP). The 
+                Windows Installer 2.0 support files for other operating systems can be 
+                downloaded from Microsoft's website at:</font></p>
+            <p class="MsoBodyText" style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; TEXT-INDENT: 25px"><span class="MsoHyperlink"><font face="Verdana" size="2"><a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f&amp;DisplayLang=en"
+                    target="_top">Download Windows Installer 2.0 Redistributable for Windows NT 4.0 
+                    and 2000</a><O:P>
+                  &nbsp;</font></span></p>
+            <p class="MsoBodyText" style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; TEXT-INDENT: 25px"><span class="MsoHyperlink"><font face="Verdana" size="2"><a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=cebbacd8-c094-4255-b702-de3bb768148f&amp;DisplayLang=en"
+                    target="_top">Download Windows Installer 2.0 Redistributable for Windows 95, 98 
+                    and ME</a></font></span></p>
+            <p class="MsoBodyText"><b><font face="Verdana" size="2"><a name="SourceCode"></a>Source 
+                  Code</font></b></p>
+        <p><span class="MsoHyperlink"><font face="Verdana" size="2"><span style="COLOR: windowtext; TEXT-DECORATION: none; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; text-underline: none">All
+        source code projects require Visual Studio 2005 with Service Pack 1 
+		installed.</span></font></span><p><span class="MsoHyperlink">
+			<font face="Verdana" size="2">T<span style="COLOR: windowtext; TEXT-DECORATION: none; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; text-underline: none">he 
+			service pack can be downloaded
+			<a href="http://msdn2.microsoft.com/en-us/vstudio/aa718695.aspx">
+			here</a>.</span>&nbsp;</font></span>
+            <p><font face="Verdana" size="2"><a name="Installation"></a></font><b><font face="Arial" size="3">Installation</font></b></p>
+            <p><b><font face="Verdana" size="2">Binaries</font></b></p>
+            <p style="mso-pagination: none; mso-layout-grid-align: none"><font face="Verdana" size="2"><span style="mso-fareast-font-family: Times New Roman"><o:p>
+                </span>The binaries installation consists of these files: </font>
+            </p>
+            <table border="1" width="100%" cellspacing="0" cellpadding="2" height="108">
+              <tr>
+                <td align="left" bgcolor="#000080" width="25%" height="16">
+                  <p align="center" style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><b><font color="#ffffff" face="Verdana" size="2">File</font></b></p>
+                </td>
+                <td align="left" bgcolor="#000080" height="16">
+                  <p align="center" style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><b><font color="#ffffff" face="Verdana" size="2">Description</font></b></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDaServer.exe</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">An OPC 
+                      DA 2.05a/3.00 Data Access server simulator.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDaServer.binary.xml</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">The
+                  OPC Binary type description for the complex types used by the
+                  server.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDaServer.config.xml</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">The 
+                      configuration file for the simulator that defines the address space.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDa20Server.exe</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">An OPC 
+                      DA 2.05a only Data Access server simulator.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDa20Server.binary.xml</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">The
+                  OPC Binary type description for the complex types used by the
+                  DA 2.05a server.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDa20Server.config.xml</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">The 
+                      configuration file for the DA 2.05a simulator that defines the address space.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDa30Server.exe</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">An OPC 
+                      DA 3.00 only Data Access server simulator.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDa30Server.binary.xml</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">The
+                  OPC Binary type description for the complex types used by the
+                  DA 3.00 server.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDa30Server.config.xml</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">The 
+                      configuration file for the DA 3.00 simulator that defines the address space.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDaWrapper.exe</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">An
+                  generic wrapper for an in-process .NET DA server
+                  implementation.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDaWrapper.config.xml</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">The
+                  configuration file for the wrapper that specifies the ProgID
+                  of the wrapped server.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDaWrapper.device.xml</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">The 
+                      configuration file that defines the address space for the
+                  .NET DA sample server.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OpcDaSampleClient.exe</font></p>
+                </td>
+                <td align="left" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">An OPC 
+                      DA 2.05a/3.00/XML-DA 1.00 Data Access client.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="14">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">OPCSample.OpcDaServer.1.xml</font></p>
+                </td>
+                <td align="left" height="14">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A 
+                      configuration for the client that pre-defines groups for use with the sample 
+                      server.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" height="14">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Opc.ConfigTool.exe</font></p>
+                </td>
+                <td align="left" height="14">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A
+                  utility used to register .NET implementations of COM servers.</font></p>
+                </td>
+              </tr>
+            </table>
+            <p><b><font face="Verdana" size="2">Source Code</font></b></p>
+            <p class="MsoNormal"><span style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana">The
+        source code for the C++ server and C# client applications are
+        installed by default in the directory:</span></p>
+            <p class="MsoNormal" style="TEXT-INDENT: 25px"><span style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana"><b>$(ProgramFiles)\OPC 
+                  Foundation\Data Access 3.00</b></span></p>
+            <p style="MARGIN-LEFT: 0px; TEXT-INDENT: 0px"><span style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana">The
+        source code installation consists of the following key projects in the <i>'Source'</i> sub directory:</span></p>
+            <table border="1" width="887" cellspacing="0" cellpadding="2" height="111">
+              <tr>
+                <td align="left" bgcolor="#000080" width="286" height="16">
+                  <p align="center" style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><b><font color="#ffffff" face="Verdana" size="2">File</font></b></p>
+                </td>
+                <td align="left" bgcolor="#000080" height="16" width="587">
+                  <p align="center" style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><b><font color="#ffffff" face="Verdana" size="2">Description</font></b></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Data 
+                      Access\Sample Server</font></p>
+                </td>
+                <td align="left" height="16" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A C++ 
+                      COM server that implements the Data Access 2.05a and 3.00 specifications.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Data 
+                      Access\Sample Server (2.05a Only)</font></p>
+                </td>
+                <td align="left" height="16" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A C++ 
+                      COM server that implements the Data Access 2.05a
+                  specification.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Data 
+                      Access\Sample Server
+                  (3.00 Only)</font></p>
+                </td>
+                <td align="left" height="16" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A C++ 
+                      COM server that implements the Data Access 3.00
+                  specification.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Data 
+                      Access</font><font face="Verdana" size="2">\Server Wrapper</font></p>
+                </td>
+                <td align="left" height="16" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A C++ 
+                      COM server that wraps an in-process implementation of the
+                  DA specifications.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Data 
+                      Access\Sample Device</font></p>
+                </td>
+                <td align="left" height="16" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A C++ 
+                      class library used to implement the device simulator.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Data 
+                      Access</font><font face="Verdana" size="2">\Sample Server Classes</font></p>
+                </td>
+                <td align="left" height="16" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A C++ 
+                      class library used to implement the Data Access 2.05a and 3.00 specifications.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="14">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Shared\Sample 
+                      Controls</font></p>
+                </td>
+                <td align="left" height="14" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A C# 
+                      assembly that contains several common UI components for generic clients.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">Shared\Sample 
+                      Utility Classes</font></p>
+                </td>
+                <td align="left" height="16" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A C++ 
+                      class library that contains utility functions and classes such as lists and 
+                      strings.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">NET
+                  API\Core</font></p>
+                </td>
+                <td align="left" height="16" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A
+                  C# assembly that implements the Unified DA .NET API.&nbsp;</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">NET
+                  API\COM Wrapper</font></p>
+                </td>
+                <td align="left" height="16" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A
+                  C# assembly that implements the COM Wrapper for the Unified DA
+                  .NET API.&nbsp;</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="16">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">NET
+                  API\XML Wrapper</font></p>
+                </td>
+                <td align="left" height="16" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A
+                  C# assembly that implements the XML Wrapper for the Unified DA
+                  .NET API.&nbsp;</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="14">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">NET
+                  API\Sample Client\Da</font></p>
+                </td>
+                <td align="left" height="14" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A C# 
+                      Data Access 2.05a/3.00 and XML Data Access 1.00 client application.</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="286" height="14">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">NET
+                  API\Sample Server\Da</font></p>
+                </td>
+                <td align="left" height="14" width="587">
+                  <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="2">A C# 
+                      Data Access 2.05a/3.00 and XML Data Access 1.00 server
+                  implementation.</font></p>
+                </td>
+              </tr>
+            </table>
+            <p><b><font face="Arial" size="3"><a name="Usage"></a>Usage</font></b></p>
+            <p><b><font face="Verdana" size="2">Server</font></b></p>
+            <p><font size="2"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><font face="Verdana">The 
+                    sample server opens and reads the XML file that must be located in the same 
+                    directory as itself. The 
+                    XML file must have the same base name as the server (i.e. '</font></span></font><font face="Verdana" size="2">OpcDaServer'<span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">).
+        When executed, the server parses the file a constructs its address space
+        from the items defined within it. The file defines all standard DA
+        properties for each item as well as some simulation parameters (period
+        and sampling rate). Only items that have a value for the period
+        specified will change dynamically. The waveform depends on the data
+        type: float point types are sinusoids; integer types are a linear ramps
+        and enumerated types cycle through the set of possible values.</span></font></p>
+            <p><font face="Verdana" size="2"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><b>Server
+            Wrapper</b></span></font></p>
+            <p><font face="Verdana" size="2">Connecting to a .NET implementation
+            of a DA COM server requires two distinct registration steps. First,
+            the .NET assembly must be registered as an in-process COM server.
+            This can be done programmatically or with the OpcRegSvr.exe command
+            line utility. This utility behaves like the regsvr32 utility.
+            Second, the wrapper configuration file (OpcDaWrapper.config.xml)
+            must be updated with the ProgID of the .NET server. It is also
+            possible to change the ProgID and CLSID of the <i>wrapper</i> itself
+            in this configuration file. The ProgID of the wrapper is important
+            because it is this ProgID which the COM clients must use to connect
+            to the server. The format of the configuration file is intended to
+            be self documenting.</font></p>
+            <p><font face="Verdana" size="2"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><b>Client</b></span></font></p>
+            <p><font face="Verdana" size="2">The sample client can be started from the programs 
+                menu. By default, it will connect to the sample server when the ‘connect’ 
+                button is clicked. The sample client comes with a standard configuration file 
+                that creates three groups on the sample server (described below). The client 
+                can connect to any server that supports DA 2.0 or 3.0, however, DA 3.0 specific 
+                functionality is disabled if the client detects that the server does not 
+                support DA 3.0. The connect toolbar button or menu item allows the client to 
+                browse the local network for OPC servers on other machines. While navigating 
+                the client always try to right click or double click to access functionality 
+                (such as viewing the elements in an array value).</font></p>
+            <p><font face="Verdana" size="2"><b>Basic Types</b></font></p>
+            <p><font face="Verdana" size="2">This group demonstrates reading and writing of all 
+                supported data types, including support for server side data conversions 
+                between types as defined in Data Access 2.05 and the writing of quality and 
+                timestamp. Right-click on the left tree view to access the read/write 
+                functionality. None of the items in this group change, as a result, the server 
+                sends a ‘keep alive’ update every 5s (the keep alive rate can be changed in the 
+                ‘Edit Group’ dialog).</font></p>
+            <p><font face="Verdana" size="2"><b>Deadbands</b></font></p>
+            <p><font face="Verdana" size="2">This group demonstrates the deadband specified at 
+                the item level. The group has the same item added twice, except one of the 
+                items has a deadband of 0% that overrides the group level deadband of 15%. The 
+                item changes in sinusoidal pattern so the updates for the item with the group 
+                deadband of 15% are not reported when the value is near the peaks of the 
+                sinusoid.</font></p>
+            <p><font face="Verdana" size="2"><b>Buffering</b></font></p>
+            <p><font face="Verdana" size="2">This group demonstrates the item level sampling 
+                rate and buffering. The group has an update rate of 5s and two items that 
+                change once every second. The items have buffering enabled, however, one item 
+                has a sampling rate of 2s and the other has a sampling rate of 3s. Right click 
+                on the right side view and click ‘enable buffering’. This displays all values 
+                returned in a single update (shown in red). The server should deliver an 
+                uninterrupted series of 2s samples in blocks of 2 or 3 for the item with the 2s 
+                sampling rate. The item with the 3s sampling rate has a series of 3s samples in 
+                blocks of 1 or 2</font></p>
+            <p><font face="Verdana" size="2"><b>Enumerations</b></font></p>
+            <p><font face="Verdana" size="2">This group demonstrates the use of enumerated 
+                items where the set of valid string values is stored in the EU Info property. 
+                The four items receive updates from the server both as strings and integer 
+                values.</font></p>
+            <p><font face="Verdana" size="2"><b>Dynamic Errors</b></font></p>
+            <p><font face="Verdana" size="2">This group demonstrates how dynamic
+            error codes are reported during data change callbacks. It is
+            possible to toggle between display of the localized error texts and
+            the standard error code by right clicking on right pane list. Note,
+            that data change callbacks are only sent if the error state changes.</font></p>
+            <p><font face="Verdana" size="2"><b>Complex Data - Binary</b></font></p>
+            <p><font face="Verdana" size="2">This group demonstrates the
+            subscriptions to several complex data items described with the OPC
+            Binary type description system. The
+            'View' menu option in the popup menu will display dialog that shows
+            the item value in raw an structured format. It also shows the type
+            descriptions provided by the server.&nbsp;These items do not change
+            but it is possible to modify the complex value and write values to
+            the server.</font></p>
+            <p><font face="Verdana" size="2"><b>Complex Data - XML</b></font></p>
+            <p><font face="Verdana" size="2">This group demonstrates the
+            subscriptions to several complex data items described with the XML
+            Schema type description system. The
+            'View' menu option in the popup menu will display dialog that shows
+            the item value as an XML document. It also shows the type
+            descriptions provided by the server.&nbsp;These items do not
+            change.&nbsp;</font></p>
+            <p><font face="Verdana" size="2">The items in this group as
+            represent type conversions for each of the items in the OPC Binary
+            group above. It is possible to enable/disable type conversions via
+            the 'Edit Item' dialog which is accessible when clicking on an item
+            in the tree view on the left.</font></p>
+            <p><font face="Verdana" size="2">These items also support <b>Complex
+            Data Filters</b>. These filters may also be entered via the 'Edit
+            Item' dialog. The syntax is any valid XPath that can be applied to
+            the value. For example, the filter '//Uint' when applied to the
+            'Integers' item will cause the server to only return a value
+            containing elements named 'UInt'.</font></p>
+            <p><font face="Verdana" size="2"><b>Complex Data - Dynamic</b></font></p>
+            <p><font face="Verdana" size="2">This group contains one item in
+            binary and XML formats that changes dynamically. The data updates
+            can be monitored in the 'View Complex Data' dialog that is
+            accessible via the 'View' menu in the right hand list view.</font></p>
+            <p><b><font face="Arial" size="3"><a name="ProblemReporting"></a>Problem Reporting</font></b></p>
+            <p><font face="Verdana" size="2">As part of a broader initiative to increase 
+                adoption of OPC specifications and to improve service to members, the OPC 
+                Foundation intends to maintain binaries and sample code over time following a 
+                model similar to Open Source projects. Vendors are encouraged to report 
+                problems, bug fixes, enhancements and any other comments about the components 
+                supplied by the OPC Foundation. To support this effort, the OPC Foundation has 
+                technical staff prepared to review and incorporate feedback into the baseline 
+                and release new versions of the components and sample code in a timely manner 
+                for the benefit of all members.</font></p>
+            <p><font face="Verdana" size="2">Please note that this support is intended for OPC 
+                Foundation members who are incorporating OPC support into their products.</font></p>
+            <p><font face="Verdana" size="2">Problems related to a particular download should 
+                be posted to the appropriate group on the <a href="http://opcfoundation.org/forum">
+                  OPC Foundation Message Board</a>.</font></p>
+          </td>
+        </tr>
+        <tr align="center">
+          <td>
+            <hr align="center" width="100%" SIZE="1">
+            <font face="Verdana, Arial, Helvetica, sans-serif" size="1">Please send website 
+              comments or report any problems to: <a href="mailto:webmaster@opcfoundation.org?Subject=OPC website comments">
+                webmaster@opcfoundation.org</a></font></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
