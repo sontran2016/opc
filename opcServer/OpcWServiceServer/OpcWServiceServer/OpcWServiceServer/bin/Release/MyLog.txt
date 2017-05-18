@@ -1,0 +1,18 @@
+
+12/7/2016 5:19:24 PM, System.Net.Sockets.SocketException (0x80004005): An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at OpcWServiceServer.Implement.AsyncSocketServer.Send(Object objData) in C:\SonTran\OpcWServiceServer\OpcWServiceServer\Implement\SocketServerService.cs:line 201
+12/7/2016 5:21:09 PM, System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at OpcWServiceServer.Implement.AsyncSocketServer.AcceptCallback(IAsyncResult ar) in C:\SonTran\OpcWServiceServer\OpcWServiceServer\Implement\SocketServerService.cs:line 127
+12/7/2016 5:23:15 PM, System.Net.Sockets.SocketException (0x80004005): An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at OpcWServiceServer.Implement.AsyncSocketServer.Send(Object objData) in C:\SonTran\OpcWServiceServer\OpcWServiceServer\Implement\SocketServerService.cs:line 201
+12/7/2016 5:23:58 PM, System.Net.Sockets.SocketException (0x80004005): An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at OpcWServiceServer.Implement.AsyncSocketServer.Send(Object objData) in C:\SonTran\OpcWServiceServer\OpcWServiceServer\Implement\SocketServerService.cs:line 201
+12/7/2016 5:27:15 PM, System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.EndAccept(IAsyncResult asyncResult)
+   at OpcWServiceServer.Implement.AsyncSocketServer.AcceptCallback(IAsyncResult ar) in C:\SonTran\OpcWServiceServer\OpcWServiceServer\Implement\SocketServerService.cs:line 127

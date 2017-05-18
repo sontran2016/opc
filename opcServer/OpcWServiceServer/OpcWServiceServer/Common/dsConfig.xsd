@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsConfig" targetNamespace="http://tempuri.org/dsConfig.xsd" xmlns:mstns="http://tempuri.org/dsConfig.xsd" xmlns="http://tempuri.org/dsConfig.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsConfig" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsConfig" msprop:Generator_UserDSName="dsConfig">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblServer" msprop:Generator_TableClassName="tblServerDataTable" msprop:Generator_TableVarName="tabletblServer" msprop:Generator_TablePropName="tblServer" msprop:Generator_RowDeletingName="tblServerRowDeleting" msprop:Generator_UserTableName="tblServer" msprop:Generator_RowChangingName="tblServerRowChanging" msprop:Generator_RowEvHandlerName="tblServerRowChangeEventHandler" msprop:Generator_RowDeletedName="tblServerRowDeleted" msprop:Generator_RowEvArgName="tblServerRowChangeEvent" msprop:Generator_RowChangedName="tblServerRowChanged" msprop:Generator_RowClassName="tblServerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblGroup" msprop:Generator_TableClassName="tblGroupDataTable" msprop:Generator_TableVarName="tabletblGroup" msprop:Generator_TablePropName="tblGroup" msprop:Generator_RowDeletingName="tblGroupRowDeleting" msprop:Generator_UserTableName="tblGroup" msprop:Generator_RowChangingName="tblGroupRowChanging" msprop:Generator_RowEvHandlerName="tblGroupRowChangeEventHandler" msprop:Generator_RowDeletedName="tblGroupRowDeleted" msprop:Generator_RowEvArgName="tblGroupRowChangeEvent" msprop:Generator_RowChangedName="tblGroupRowChanged" msprop:Generator_RowClassName="tblGroupRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="ServerId" msprop:Generator_ColumnVarNameInTable="columnServerId" msprop:Generator_ColumnPropNameInRow="ServerId" msprop:Generator_ColumnPropNameInTable="ServerIdColumn" msprop:Generator_UserColumnName="ServerId" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblTag" msprop:Generator_TableClassName="tblTagDataTable" msprop:Generator_TableVarName="tabletblTag" msprop:Generator_TablePropName="tblTag" msprop:Generator_RowDeletingName="tblTagRowDeleting" msprop:Generator_UserTableName="tblTag" msprop:Generator_RowChangingName="tblTagRowChanging" msprop:Generator_RowEvHandlerName="tblTagRowChangeEventHandler" msprop:Generator_RowDeletedName="tblTagRowDeleted" msprop:Generator_RowEvArgName="tblTagRowChangeEvent" msprop:Generator_RowChangedName="tblTagRowChanged" msprop:Generator_RowClassName="tblTagRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="GroupId" msprop:Generator_ColumnVarNameInTable="columnGroupId" msprop:Generator_ColumnPropNameInRow="GroupId" msprop:Generator_ColumnPropNameInTable="GroupIdColumn" msprop:Generator_UserColumnName="GroupId" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblServer" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="tblGroup_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblGroup" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="tblTag_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblTag" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:keyref name="Group_Tag" refer="tblGroup_Constraint1" msdata:ConstraintOnly="true" msdata:UpdateRule="None">
+      <xs:selector xpath=".//mstns:tblTag" />
+      <xs:field xpath="mstns:GroupId" />
+    </xs:keyref>
+    <xs:keyref name="Server_Group" refer="Constraint1" msdata:ConstraintOnly="true" msdata:UpdateRule="None">
+      <xs:selector xpath=".//mstns:tblGroup" />
+      <xs:field xpath="mstns:ServerId" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

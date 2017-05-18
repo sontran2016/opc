@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\SonTran\OpcWServiceServer\ServerTest\bin\Release\ServerTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcWServiceServer\ServerTest\bin\Release\ServerTest.InstallLog
+   assemblypath = C:\SonTran\OpcWServiceServer\ServerTest\bin\Release\ServerTest.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\SonTran\OpcWServiceServer\ServerTest\bin\Release\ServerTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcWServiceServer\ServerTest\bin\Release\ServerTest.InstallLog
+   assemblypath = C:\SonTran\OpcWServiceServer\ServerTest\bin\Release\ServerTest.exe

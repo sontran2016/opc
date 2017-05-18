@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpcWServiceServer", "OpcWServiceServer\OpcWServiceServer.csproj", "{C456ABF0-943C-41E4-825D-3473F89D7418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTest", "ServerTest\ServerTest.csproj", "{042829C6-38EB-42A5-BD48-72EBA0AEF7CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C456ABF0-943C-41E4-825D-3473F89D7418}.Debug|x86.ActiveCfg = Debug|x86
+		{C456ABF0-943C-41E4-825D-3473F89D7418}.Debug|x86.Build.0 = Debug|x86
+		{C456ABF0-943C-41E4-825D-3473F89D7418}.Release|x86.ActiveCfg = Release|x86
+		{C456ABF0-943C-41E4-825D-3473F89D7418}.Release|x86.Build.0 = Release|x86
+		{042829C6-38EB-42A5-BD48-72EBA0AEF7CE}.Debug|x86.ActiveCfg = Debug|x86
+		{042829C6-38EB-42A5-BD48-72EBA0AEF7CE}.Debug|x86.Build.0 = Debug|x86
+		{042829C6-38EB-42A5-BD48-72EBA0AEF7CE}.Release|x86.ActiveCfg = Release|x86
+		{042829C6-38EB-42A5-BD48-72EBA0AEF7CE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

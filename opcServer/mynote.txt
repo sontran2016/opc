@@ -1,0 +1,8 @@
+Key VS 2010 Ultimate: YCFHQ9DWCYDKV88T2TMHG7BHP
+
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+installutil C:\SonTran\Socket\OpcWServiceClient\bin\Release\OpcWServiceClient.exe
+installutil "C:\Program Files (x86)\New Ocean\Opc Ws Client\OpcWServiceClient.exe"
+installutil /u "C:\Program Files (x86)\New Ocean\Opc Ws Client\OpcWServiceClient.exe"
+
+runas /user:Administrator

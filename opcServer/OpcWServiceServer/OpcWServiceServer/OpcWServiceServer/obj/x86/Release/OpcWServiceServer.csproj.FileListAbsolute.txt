@@ -1,0 +1,14 @@
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe.config
+C:\SonTran\App VS2010\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe.config
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.pdb
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\Newtonsoft.Json.dll
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcNetApi.Com.dll
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcNetApi.dll
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcNetApi.Xml.dll
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\obj\x86\Release\ResolveAssemblyReference.cache
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\obj\x86\Release\OPCWindowsService.ProjectInstaller.resources
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\obj\x86\Release\GenerateResource.read.1.tlog
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\obj\x86\Release\GenerateResource.write.1.tlog
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\obj\x86\Release\OpcWServiceServer.exe
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\obj\x86\Release\OpcWServiceServer.pdb

@@ -1,0 +1,10 @@
+C:\SonTran\OpcWServiceServer\ServerTest\bin\Release\ServerTest.exe
+C:\SonTran\OpcWServiceServer\ServerTest\bin\Release\ServerTest.pdb
+C:\SonTran\OpcWServiceServer\ServerTest\obj\x86\Release\ResolveAssemblyReference.cache
+C:\SonTran\OpcWServiceServer\ServerTest\obj\x86\Release\ServerTest.ProjectInstaller.resources
+C:\SonTran\OpcWServiceServer\ServerTest\obj\x86\Release\GenerateResource.read.1.tlog
+C:\SonTran\OpcWServiceServer\ServerTest\obj\x86\Release\GenerateResource.write.1.tlog
+C:\SonTran\OpcWServiceServer\ServerTest\obj\x86\Release\ServerTest.exe
+C:\SonTran\OpcWServiceServer\ServerTest\obj\x86\Release\ServerTest.pdb
+C:\SonTran\App VS2010\SonTran\OpcWServiceServer\ServerTest\obj\x86\Release\ServerTest.exe
+C:\SonTran\App VS2010\SonTran\OpcWServiceServer\ServerTest\obj\x86\Release\ServerTest.pdb

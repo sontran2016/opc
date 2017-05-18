@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<dsConfig xmlns="http://tempuri.org/dsConfig.xsd">
+  <tblServer>
+    <Id>1</Id>
+    <Name>192.168.1.182/RSLinx OPC Server</Name>
+  </tblServer>
+  <tblGroup>
+    <Id>1</Id>
+    <Name>RSLinx</Name>
+    <ServerId>1</ServerId>
+  </tblGroup>
+  <tblTag>
+    <Id>1</Id>
+    <Name>[RSLinx]Input_Int</Name>
+    <GroupId>1</GroupId>
+  </tblTag>
+  <tblTag>
+    <Id>2</Id>
+    <Name>[RSLinx]Input_From_Client</Name>
+    <GroupId>1</GroupId>
+  </tblTag>
+  <tblTag>
+    <Id>4</Id>
+    <Name>[RSLinx]Tag1</Name>
+    <GroupId>1</GroupId>
+  </tblTag>
+  <tblTag>
+    <Id>5</Id>
+    <Name>[RSLinx]Input_To_Client</Name>
+    <GroupId>1</GroupId>
+  </tblTag>
+</dsConfig>

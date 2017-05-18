@@ -1,0 +1,2 @@
+C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe.config
+C:\SonTran\App VS2010\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe.config

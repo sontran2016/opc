@@ -1,0 +1,14 @@
+﻿Installing assembly 'C:\SonTran\OpcService\OpcService\bin\Release\opcservice.exe'.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\Release\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Release\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Release\opcservice.exe
+Installing service Opc Windows Service...
+Service Opc Windows Service has been successfully installed.
+Creating EventLog source Opc Windows Service in log Application...
+Committing assembly 'C:\SonTran\OpcService\OpcService\bin\Release\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Release\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Release\opcservice.exe

@@ -1,0 +1,42 @@
+﻿Installing assembly 'C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.InstallLog
+   assemblypath = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe
+Installing service OpcWindowsService...
+Service OpcWindowsService has been successfully installed.
+Creating EventLog source OpcWindowsService in log Application...
+Committing assembly 'C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.InstallLog
+   assemblypath = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe
+Uninstalling assembly 'C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.InstallLog
+   assemblypath = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe
+Removing EventLog source OpcWindowsService.
+Service OpcWindowsService is being removed from the system...
+Service OpcWindowsService was successfully removed from the system.
+Installing assembly 'C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.InstallLog
+   assemblypath = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe
+Installing service OpcWindowsService...
+Service OpcWindowsService has been successfully installed.
+Creating EventLog source OpcWindowsService in log Application...
+Committing assembly 'C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.InstallLog
+   assemblypath = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe
+Uninstalling assembly 'C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.InstallLog
+   assemblypath = C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe
+Removing EventLog source OpcWindowsService.
+Service OpcWindowsService is being removed from the system...
+Service OpcWindowsService was successfully removed from the system.

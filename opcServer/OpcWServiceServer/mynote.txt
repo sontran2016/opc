@@ -1,0 +1,11 @@
+
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
+installutil /u 
+
+installutil C:\SonTran\OpcService\OpcService\bin\Release\opcservice.exe
+installutil /u C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+installutil /u "C:\Program Files\New Ocean\Opc WS Server\OpcWServiceServer.exe"
+installutil "C:\SonTran\OpcWServiceServer\OpcWServiceServer\bin\Release\OpcWServiceServer.exe"
+
+E_FAIL
+IOPCSyncIO.Read

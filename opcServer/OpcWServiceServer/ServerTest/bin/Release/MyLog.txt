@@ -1,0 +1,88 @@
+
+12/2/2016 12:03:41 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 85
+12/2/2016 1:15:34 PM, Waiting for a connection...
+12/2/2016 1:23:16 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 85
+12/2/2016 1:26:27 PM, Waiting for a connection...
+12/2/2016 1:30:17 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 86
+12/2/2016 1:37:49 PM, Waiting for a connection...
+12/2/2016 1:39:41 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 86
+12/2/2016 1:52:21 PM, Waiting for a connection...
+12/2/2016 2:19:50 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 86
+12/2/2016 2:19:55 PM, System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at ServerTest.SocketServer.StartListening() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 56
+12/2/2016 3:22:03 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 86
+12/2/2016 3:23:04 PM, Waiting for a connection...
+12/2/2016 3:23:51 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 86
+12/2/2016 3:23:56 PM, System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at ServerTest.SocketServer.StartListening() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 56
+12/2/2016 3:24:57 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 86
+12/2/2016 3:25:33 PM, Waiting for a connection...
+12/2/2016 3:26:23 PM, Waiting for a connection...
+12/2/2016 3:26:23 PM, Read 19 bytes from socket. 
+ Data : This is a test<EOF>
+12/2/2016 3:26:23 PM, Sent 19 bytes to client.
+12/2/2016 3:28:14 PM, Waiting for a connection...
+12/2/2016 3:28:14 PM, Read 19 bytes from socket. 
+ Data : This is a test<EOF>
+12/2/2016 3:28:14 PM, Sent 19 bytes to client.
+12/2/2016 3:29:07 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 86
+12/2/2016 3:29:22 PM, System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at ServerTest.SocketServer.StartListening() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 56
+12/2/2016 3:31:54 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 86
+12/2/2016 3:32:00 PM, Waiting for a connection...
+12/2/2016 3:32:17 PM, Waiting for a connection...
+12/2/2016 3:32:17 PM, Read 19 bytes from socket. 
+ Data : This is a test<EOF>
+12/2/2016 3:32:17 PM, Sent 19 bytes to client.
+12/2/2016 3:33:42 PM, Waiting for a connection...
+12/2/2016 3:33:42 PM, Read 19 bytes from socket. 
+ Data : This is a test<EOF>
+12/2/2016 3:33:42 PM, Sent 19 bytes to client.
+12/2/2016 3:34:32 PM, System.Net.Sockets.SocketException (0x80004005): A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+   at System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   at ServerTest.SocketServer.Stop() in C:\SonTran\OpcWServiceServer\ServerTest\SocketServer.cs:line 86
+12/2/2016 3:35:39 PM, Waiting for a connection...
+12/2/2016 3:37:05 PM, Waiting for a connection...
+12/2/2016 3:46:02 PM, Waiting for a connection...
+12/2/2016 3:46:02 PM, Read 19 bytes from socket. 
+ Data : This is a test<EOF>
+12/2/2016 3:46:02 PM, Sent 19 bytes to client.
+12/2/2016 3:48:08 PM, Waiting for a connection...
+12/2/2016 3:48:08 PM, Read 19 bytes from socket. 
+ Data : This is a test<EOF>
+12/2/2016 3:48:08 PM, Sent 19 bytes to client.
+12/2/2016 3:57:34 PM, Waiting for a connection...
+12/2/2016 3:57:42 PM, Waiting for a connection...
+12/2/2016 3:57:42 PM, Read 19 bytes from socket. 
+ Data : This is a test<EOF>
+12/2/2016 3:57:42 PM, Sent 19 bytes to client.
+12/2/2016 4:00:28 PM, Waiting for a connection...
+12/2/2016 4:00:28 PM, Read 19 bytes from socket. 
+ Data : This is a test<EOF>
+12/2/2016 4:00:28 PM, Sent 19 bytes to client.

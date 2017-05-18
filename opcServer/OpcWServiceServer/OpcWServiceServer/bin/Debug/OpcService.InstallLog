@@ -1,0 +1,230 @@
+﻿Installing assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe assembly.
+Committing assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Installing service OpcWindowsService...
+Service OpcWindowsService has been successfully installed.
+Creating EventLog source OpcWindowsService in log Application...
+Committing assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Uninstalling assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Removing EventLog source OpcWindowsService.
+Service OpcWindowsService is being removed from the system...
+Service OpcWindowsService was successfully removed from the system.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Installing service Opc Windows Service...
+Service Opc Windows Service has been successfully installed.
+Creating EventLog source Opc Windows Service in log Application...
+Committing assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Uninstalling assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Removing EventLog source Opc Windows Service.
+Service Opc Windows Service is being removed from the system...
+Service Opc Windows Service was successfully removed from the system.
+Attempt to stop service Opc Windows Service.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Installing service Opc Windows Service...
+Creating EventLog source Opc Windows Service in log Application...
+Rolling back assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Restoring event log to previous state for source Opc Windows Service.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Installing service Opc Windows Service...
+Creating EventLog source Opc Windows Service in log Application...
+Rolling back assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Restoring event log to previous state for source Opc Windows Service.
+Uninstalling assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Removing EventLog source Opc Windows Service.
+Warning: The source Opc Windows Service is not registered on the local machine.
+Service Opc Windows Service is being removed from the system...
+Service Opc Windows Service was successfully removed from the system.
+Attempt to stop service Opc Windows Service.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Installing service Opc Windows Service...
+Service Opc Windows Service has been successfully installed.
+Creating EventLog source Opc Windows Service in log Application...
+Committing assembly 'C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\debug\OpcService.exe
+Uninstalling assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Removing EventLog source Opc Windows Service.
+Service Opc Windows Service is being removed from the system...
+Service Opc Windows Service was successfully removed from the system.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Installing service Opc Windows Service...
+Creating EventLog source Opc Windows Service in log Application...
+Rolling back assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Restoring event log to previous state for source Opc Windows Service.
+Uninstalling assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Removing EventLog source Opc Windows Service.
+Warning: The source Opc Windows Service is not registered on the local machine.
+Service Opc Windows Service is being removed from the system...
+Service Opc Windows Service was successfully removed from the system.
+Uninstalling assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Removing EventLog source Opc Windows Service.
+Warning: The source Opc Windows Service is not registered on the local machine.
+Service Opc Windows Service is being removed from the system...
+Service Opc Windows Service was successfully removed from the system.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Installing service Opc Windows Service...
+Creating EventLog source Opc Windows Service in log Application...
+Rolling back assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Restoring event log to previous state for source Opc Windows Service.
+Uninstalling assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Removing EventLog source Opc Windows Service.
+Warning: The source Opc Windows Service is not registered on the local machine.
+Service Opc Windows Service is being removed from the system...
+Service Opc Windows Service was successfully removed from the system.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Installing service Opc Windows Service...
+Service Opc Windows Service has been successfully installed.
+Creating EventLog source Opc Windows Service in log Application...
+Committing assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Uninstalling assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Removing EventLog source Opc Windows Service.
+Service Opc Windows Service is being removed from the system...
+Service Opc Windows Service was successfully removed from the system.
+Attempt to stop service Opc Windows Service.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Installing service Opc Windows Service...
+Service Opc Windows Service has been successfully installed.
+Creating EventLog source Opc Windows Service in log Application...
+Committing assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Uninstalling assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Removing EventLog source Opc Windows Service.
+Service Opc Windows Service is being removed from the system...
+Service Opc Windows Service was successfully removed from the system.
+Installing assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Installing service Opc Windows Service...
+Service Opc Windows Service has been successfully installed.
+Creating EventLog source Opc Windows Service in log Application...
+Committing assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Uninstalling assembly 'C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.InstallLog
+   assemblypath = C:\SonTran\OpcService\OpcService\bin\Debug\opcservice.exe
+Removing EventLog source Opc Windows Service.
+Service Opc Windows Service is being removed from the system...
+Service Opc Windows Service was successfully removed from the system.
